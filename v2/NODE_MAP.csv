@@ -1,0 +1,42 @@
+market,node_id,node_name,node_type,selection_reason
+NYISO,WEST,West,load_zone,confirmed-from-data; NYISO load zone
+NYISO,GENESE,Genesee,load_zone,confirmed-from-data; NYISO load zone
+NYISO,CENTRL,Central,load_zone,confirmed-from-data; NYISO load zone
+NYISO,NORTH,North,load_zone,confirmed-from-data; NYISO load zone
+NYISO,MHK VL,Mohawk Valley,load_zone,confirmed-from-data; NYISO load zone
+NYISO,CAPITL,Capital,load_zone,confirmed-from-data; NYISO load zone
+NYISO,HUD VL,Hudson Valley,load_zone,confirmed-from-data; NYISO load zone
+NYISO,N.Y.C.,New York City,load_zone,confirmed-from-data; v1 reference node (reproduction)
+NYISO,DUNWOD,Dunwoodie,load_zone,confirmed-from-data; NYISO load zone
+NYISO,LONGIL,Long Island,load_zone,confirmed-from-data; NYISO load zone
+ISONE,.H.INTERNAL_HUB,ISO-NE Internal Hub,trading_hub,standard; v1 reference node (reproduction); confirm-at-ingest
+ISONE,.Z.MAINE,Maine,load_zone,standard ISO-NE load zone; confirm-at-ingest
+ISONE,.Z.NEWHAMPSHIRE,New Hampshire,load_zone,standard ISO-NE load zone; confirm-at-ingest
+ISONE,.Z.VERMONT,Vermont,load_zone,standard ISO-NE load zone; confirm-at-ingest
+ISONE,.Z.CONNECTICUT,Connecticut,load_zone,standard ISO-NE load zone; confirm-at-ingest
+ISONE,.Z.RHODEISLAND,Rhode Island,load_zone,standard ISO-NE load zone; confirm-at-ingest
+ISONE,.Z.SEMASS,Southeast Mass,load_zone,standard ISO-NE load zone; confirm-at-ingest
+ISONE,.Z.WCMASS,West-Central Mass,load_zone,standard ISO-NE load zone; confirm-at-ingest
+ISONE,.Z.NEMASSBOST,Northeast Mass/Boston,load_zone,standard ISO-NE load zone; confirm-at-ingest
+MISO,ARKANSAS.HUB,Arkansas Hub,trading_hub,confirmed-from-data; MISO trading hub
+MISO,ILLINOIS.HUB,Illinois Hub,trading_hub,confirmed-from-data; MISO trading hub
+MISO,INDIANA.HUB,Indiana Hub,trading_hub,confirmed-from-data; MISO trading hub
+MISO,LOUISIANA.HUB,Louisiana Hub,trading_hub,confirmed-from-data; MISO trading hub
+MISO,MICHIGAN.HUB,Michigan Hub,trading_hub,confirmed-from-data; MISO trading hub
+MISO,MINN.HUB,Minnesota Hub,trading_hub,confirmed-from-data; MISO trading hub
+MISO,MS.HUB,Mississippi Hub,trading_hub,confirmed-from-data; MISO trading hub
+MISO,TEXAS.HUB,Texas Hub,trading_hub,confirmed-from-data; MISO trading hub
+CAISO,TH_SP15_GEN-APND,SP15 Trading Hub,trading_hub,standard; v1 reference node (reproduction); confirm-at-ingest
+CAISO,TH_NP15_GEN-APND,NP15 Trading Hub,trading_hub,standard CAISO trading hub; confirm-at-ingest
+CAISO,TH_ZP26_GEN-APND,ZP26 Trading Hub,trading_hub,standard CAISO trading hub; confirm-at-ingest
+CAISO,DLAP_PGAE-APND,PG&E Default LAP,load_zone,standard CAISO load aggregation; confirm-at-ingest
+CAISO,DLAP_SCE-APND,SCE Default LAP,load_zone,standard CAISO load aggregation; confirm-at-ingest
+CAISO,DLAP_SDGE-APND,SDG&E Default LAP,load_zone,standard CAISO load aggregation; confirm-at-ingest
+SPP,SPPNORTH_HUB,SPP North Hub,trading_hub,standard SPP hub; confirm-at-ingest
+SPP,SPPSOUTH_HUB,SPP South Hub,trading_hub,standard SPP hub; confirm-at-ingest
+SPP,VERIFY_SPP_ZONE_1,SPP settlement zone 1,load_zone,TO-VERIFY at ingest; SPP settlement location
+SPP,VERIFY_SPP_ZONE_2,SPP settlement zone 2,load_zone,TO-VERIFY at ingest; SPP settlement location
+SPP,VERIFY_SPP_ZONE_3,SPP settlement zone 3,load_zone,TO-VERIFY at ingest; SPP settlement location
+SPP,VERIFY_SPP_ZONE_4,SPP settlement zone 4,load_zone,TO-VERIFY at ingest; SPP settlement location
+SPP,VERIFY_SPP_ZONE_5,SPP settlement zone 5,load_zone,TO-VERIFY at ingest; SPP settlement location
+SPP,VERIFY_SPP_ZONE_6,SPP settlement zone 6,load_zone,TO-VERIFY at ingest; SPP settlement location

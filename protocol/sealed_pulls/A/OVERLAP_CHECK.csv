@@ -1,0 +1,7 @@
+series,market,matched,new_only,reference_only,rows_differing,max_abs_diff_da,max_abs_diff_rt
+price,CAISO,1440,0,0,0,0.0,0.0
+price,ISONE,2160,0,0,0,0.0,0.0
+price,MISO,1920,0,0,0,0.0,0.0
+price,NYISO,3600,0,0,0,0.0,0.0
+fmm,CAISO,1440,0,0,0,,0.0
+nyiso_rtint,NYISO,3600,0,0,0,,0.0

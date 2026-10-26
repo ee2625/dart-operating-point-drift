@@ -1,0 +1,18 @@
+{
+  "A": {
+    "finished_utc": "2026-10-26T09:16:40.471499+00:00",
+    "incomplete_chunks": {},
+    "local_record": "author-statement-2026-10-26",
+    "manifest_sha256": "5d7429648550096f1a11e8e2fc1f0629774030c54b79e71086bd862415df38cf",
+    "osf_doi": null,
+    "osf_registration": null,
+    "protocol_sha256": "3efce3a1e6fd23c709b738409e5be08da6735811cf0fb104fe17f2ae74f0a7eb",
+    "public_record": null,
+    "registered_utc": "2026-10-26T08:33:52Z",
+    "registration_id": "local:author-statement-2026-10-26",
+    "registration_identifier": "author-statement-2026-10-26",
+    "registration_kind": "local",
+    "root": "/Users/erceerez/dart-spread-data/sealed_2026Q3",
+    "started_utc": "2026-10-26T08:35:50.996330+00:00"
+  }
+}

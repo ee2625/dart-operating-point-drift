@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this software."
+title: "Code for: Feature-Block Portability and Operating-Point Drift in DART-Spread Spike Prediction"
+type: software
+authors:
+  - family-names: Erez
+    given-names: Erce
+    affiliation: "Columbia University"
+license: MIT
+repository-code: "https://github.com/ee2625/dart-operating-point-drift"
+abstract: "Code for the paper Feature-Block Portability and Operating-Point Drift in DART-Spread Spike Prediction, by Erce Erez: the price-only pipeline (downloaders of the public day-ahead and real-time prices of NYISO, ISO-NE, MISO and CAISO, the development analyses) and the machinery and the protocol of the two pre-specified forward tests, of which the first has been run."

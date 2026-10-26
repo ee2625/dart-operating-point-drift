@@ -1,0 +1,92 @@
+pull_started_utc: 2026-10-26T08:35:50.996330+00:00
+test: A
+pull: 2026-06-21 .. 2026-09-30 (deployment 2026-07-01 .. 2026-09-30)
+protocol_sha256: 3efce3a1e6fd23c709b738409e5be08da6735811cf0fb104fe17f2ae74f0a7eb
+osf_doi: none
+osf_registration: none
+public_record: none
+local_record: author-statement-2026-10-26
+registration_identifier: author-statement-2026-10-26
+registration_id: local:author-statement-2026-10-26
+registration_kind: local
+registered_utc: 2026-10-26T08:33:52Z
+resume: False; steps already done: []
+allow_missing_days: none
+allow_incomplete_chunks: none
+check_days: True
+code_sha256: es/sealed_pull.py dba3656a506ba427073ef30a1670daf74b93261f2794cc235b9ec2153a8a5b12
+code_sha256: es/registration.py 9c30d0b9af8601e8c693f761acd5ee82dd5efaf8c17bc5ec48ecb275d74b467d
+code_sha256: es/settlement.py 4aa16919e0ec7b03671eefc84732f13e939b32b2fa17b3a8607fdfbebbb1fd72
+code_sha256: es/guard.py 198774620ffb4e4825f4467362bd6a7ad5c6e9421b20767d09b1da285c75a852
+code_sha256: es/config.py d594438147d41c97ba5f1cdde4bf4c9ae4a37383d53f7dcc4e038ed2e6258740
+code_sha256: es/data.py fb10965d010cdc8d6325fbd7f3a1ce7d6a792c65ab62da41a53505b250176065
+code_sha256: v2/run_decomposition.py 6baa0ac72d090746a559552a3b0859b1096db950ad1b6896b5734498a2fec94b
+code_sha256: v2/ingest_nyiso.py 430b05f7cbc5f60636a7a458604348cffb64d49826079d2b3a966a7730ca5e2f
+code_sha256: v2/ingest_isone.py 242d144cef113625ec3936887442b3d8001e9c49c89259a02d1b7f33eb2320e7
+code_sha256: v2/ingest_miso.py 2bdf5c7d7cbfc848e28c89c76bd67f1646d81c43769589533ca932145323c435
+code_sha256: v2/NODE_MAP.csv 213ae55993192e6ffd895315dd682b031cd360def27488e4e5536aba195b523e
+trimmed 7200 row(s) outside 2026-06-21 .. 2026-09-30 from nyiso_da_rt_202606_202609.parquet
+step NYISO: every node-map node has the hours of every day from 2026-06-21 to 2026-09-30, with finite prices, on the hour, and no more rows than the day has hours
+step NYISO finished 2026-10-26T08:35:54.432559+00:00
+trimmed 0 row(s) outside 2026-06-21 .. 2026-09-30 from isone_da_rt_20260621_20260930.parquet
+step ISONE: every node-map node has the hours of every day from 2026-06-21 to 2026-09-30, with finite prices, on the hour, and no more rows than the day has hours
+step ISONE finished 2026-10-26T08:37:13.052086+00:00
+trimmed 0 row(s) outside 2026-06-21 .. 2026-09-30 from miso_da_rt_20260621_20260930.parquet
+step MISO: every node-map node has the hours of every day from 2026-06-21 to 2026-09-30, with finite prices, on the hour, and no more rows than the day has hours
+step MISO finished 2026-10-26T08:39:02.675193+00:00
+trimmed 0 row(s) outside 2026-06-21 .. 2026-09-30 from caiso_da_rt_20260621_20260930.parquet
+step CAISO: every node-map node has the hours of every day from 2026-06-21 to 2026-09-30, with finite prices, on the hour, and no more rows than the day has hours
+step CAISO finished 2026-10-26T09:04:28.782015+00:00
+trimmed 0 row(s) outside 2026-06-21 .. 2026-09-30 from fmm/caiso_fmm_20260621_20260930.parquet
+step fmm: every node-map node has the hours of every day from 2026-06-21 to 2026-09-30, with finite prices, on the hour, and no more rows than the day has hours
+step FMM finished 2026-10-26T09:14:20.935065+00:00
+NYISO integrated 2026-06: 10800 rows kept, 0 dropped (ambiguous or nonexistent local time)
+NYISO integrated 2026-07: 4320 rows kept, 0 dropped (ambiguous or nonexistent local time)
+NYISO integrated 2026-08: 11160 rows kept, 0 dropped (ambiguous or nonexistent local time)
+NYISO integrated 2026-09: 10800 rows kept, 0 dropped (ambiguous or nonexistent local time)
+trimmed 7200 row(s) outside 2026-06-21 .. 2026-09-30 from nyiso_rtint/nyiso_rtint_202606_202609.parquet
+step nyiso_rtint: 190 (node, day) pair(s) without rows: CAPITL: 2026-07-01 .. 2026-07-18, 2026-07-20; CENTRL: 2026-07-01 .. 2026-07-18, 2026-07-20; DUNWOD: 2026-07-01 .. 2026-07-18, 2026-07-20; GENESE: 2026-07-01 .. 2026-07-18, 2026-07-20; HUD VL: 2026-07-01 .. 2026-07-18, 2026-07-20; LONGIL: 2026-07-01 .. 2026-07-18, 2026-07-20; MHK VL: 2026-07-01 .. 2026-07-18, 2026-07-20; N.Y.C.: 2026-07-01 .. 2026-07-18, 2026-07-20; NORTH: 2026-07-01 .. 2026-07-18, 2026-07-20; WEST: 2026-07-01 .. 2026-07-18, 2026-07-20
+pull_started_utc: 2026-10-26T09:16:37.945796+00:00
+test: A
+pull: 2026-06-21 .. 2026-09-30 (deployment 2026-07-01 .. 2026-09-30)
+protocol_sha256: 3efce3a1e6fd23c709b738409e5be08da6735811cf0fb104fe17f2ae74f0a7eb
+osf_doi: none
+osf_registration: none
+public_record: none
+local_record: author-statement-2026-10-26
+registration_identifier: author-statement-2026-10-26
+registration_id: local:author-statement-2026-10-26
+registration_kind: local
+registered_utc: 2026-10-26T08:33:52Z
+resume: True; steps already done: ['NYISO', 'ISONE', 'MISO', 'CAISO', 'FMM']
+allow_missing_days: {"nyiso_rtint": ["2026-07-01", "2026-07-02", "2026-07-03", "2026-07-04", "2026-07-05", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-11", "2026-07-12", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-18", "2026-07-20"]}
+allow_incomplete_chunks: none
+check_days: True
+code_sha256: es/sealed_pull.py dba3656a506ba427073ef30a1670daf74b93261f2794cc235b9ec2153a8a5b12
+code_sha256: es/registration.py 9c30d0b9af8601e8c693f761acd5ee82dd5efaf8c17bc5ec48ecb275d74b467d
+code_sha256: es/settlement.py 4aa16919e0ec7b03671eefc84732f13e939b32b2fa17b3a8607fdfbebbb1fd72
+code_sha256: es/guard.py 198774620ffb4e4825f4467362bd6a7ad5c6e9421b20767d09b1da285c75a852
+code_sha256: es/config.py d594438147d41c97ba5f1cdde4bf4c9ae4a37383d53f7dcc4e038ed2e6258740
+code_sha256: es/data.py fb10965d010cdc8d6325fbd7f3a1ce7d6a792c65ab62da41a53505b250176065
+code_sha256: v2/run_decomposition.py 6baa0ac72d090746a559552a3b0859b1096db950ad1b6896b5734498a2fec94b
+code_sha256: v2/ingest_nyiso.py 430b05f7cbc5f60636a7a458604348cffb64d49826079d2b3a966a7730ca5e2f
+code_sha256: v2/ingest_isone.py 242d144cef113625ec3936887442b3d8001e9c49c89259a02d1b7f33eb2320e7
+code_sha256: v2/ingest_miso.py 2bdf5c7d7cbfc848e28c89c76bd67f1646d81c43769589533ca932145323c435
+code_sha256: v2/NODE_MAP.csv 213ae55993192e6ffd895315dd682b031cd360def27488e4e5536aba195b523e
+code: unchanged since the first attempt
+NYISO integrated 2026-06: 10800 rows kept, 0 dropped (ambiguous or nonexistent local time)
+NYISO integrated 2026-07: 4320 rows kept, 0 dropped (ambiguous or nonexistent local time)
+NYISO integrated 2026-08: 11160 rows kept, 0 dropped (ambiguous or nonexistent local time)
+NYISO integrated 2026-09: 10800 rows kept, 0 dropped (ambiguous or nonexistent local time)
+trimmed 7200 row(s) outside 2026-06-21 .. 2026-09-30 from nyiso_rtint/nyiso_rtint_202606_202609.parquet
+step nyiso_rtint: 190 (node, day) pair(s) without rows, allowed by allow_missing_days: CAPITL: 2026-07-01 .. 2026-07-18, 2026-07-20; CENTRL: 2026-07-01 .. 2026-07-18, 2026-07-20; DUNWOD: 2026-07-01 .. 2026-07-18, 2026-07-20; GENESE: 2026-07-01 .. 2026-07-18, 2026-07-20; HUD VL: 2026-07-01 .. 2026-07-18, 2026-07-20; LONGIL: 2026-07-01 .. 2026-07-18, 2026-07-20; MHK VL: 2026-07-01 .. 2026-07-18, 2026-07-20; N.Y.C.: 2026-07-01 .. 2026-07-18, 2026-07-20; NORTH: 2026-07-01 .. 2026-07-18, 2026-07-20; WEST: 2026-07-01 .. 2026-07-18, 2026-07-20
+step NYISO_INT finished 2026-10-26T09:16:38.270716+00:00
+overlap price CAISO: matched 1440, new_only 0, reference_only 0, rows_differing 0, max_abs_diff_da 0.0, max_abs_diff_rt 0.0
+overlap price ISONE: matched 2160, new_only 0, reference_only 0, rows_differing 0, max_abs_diff_da 0.0, max_abs_diff_rt 0.0
+overlap price MISO: matched 1920, new_only 0, reference_only 0, rows_differing 0, max_abs_diff_da 0.0, max_abs_diff_rt 0.0
+overlap price NYISO: matched 3600, new_only 0, reference_only 0, rows_differing 0, max_abs_diff_da 0.0, max_abs_diff_rt 0.0
+overlap fmm CAISO: matched 1440, new_only 0, reference_only 0, rows_differing 0, max_abs_diff_da nan, max_abs_diff_rt 0.0
+overlap nyiso_rtint NYISO: matched 3600, new_only 0, reference_only 0, rows_differing 0, max_abs_diff_da nan, max_abs_diff_rt 0.0
+in the price files but not in the node map, so not in COVERAGE.csv: [('NYISO', 'H Q'), ('NYISO', 'MILLWD'), ('NYISO', 'NPX'), ('NYISO', 'O H'), ('NYISO', 'PJM')]
+in the settlement tables but not in the node map, so not in COVERAGE.csv: [('nyiso_rtint', 'H Q'), ('nyiso_rtint', 'MILLWD'), ('nyiso_rtint', 'NPX'), ('nyiso_rtint', 'O H'), ('nyiso_rtint', 'PJM')]
+pull_finished_utc: 2026-10-26T09:16:40.471499+00:00

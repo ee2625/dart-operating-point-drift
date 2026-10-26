@@ -1,0 +1,16 @@
+# Pinned to the environment that produced the results: the versions were read with importlib.metadata
+# when this package was staged. Python 3.12.7.
+numpy==1.26.4
+pandas==2.2.2
+pyarrow==16.1.0
+xgboost==3.0.2
+scikit-learn==1.5.1
+scipy==1.13.1
+statsmodels==0.14.2
+matplotlib==3.9.2
+
+# needed only to run the tests
+pdfplumber==0.11.10  # imported by tests/es/test_paper_tables.py
+pillow==12.3.0  # imported by tests/es/test_paper_figures.py
+pytest==7.4.4  # imported by tests/es/conftest.py and 48 more
+threadpoolctl==3.5.0  # imported by tests/es/test_run_inference.py and 1 more
